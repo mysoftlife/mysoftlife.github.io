@@ -1,5 +1,5 @@
 ---
-title: Authentication
+title: Get Single Product
 position_number: 2
 parameters:
   - name:

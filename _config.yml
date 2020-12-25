@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Aviator
+title: POWX
 description: Jekyll template for API documentation.
 url: https://example.com
 google_analytics_key:
@@ -14,12 +14,47 @@ baseurl:
 timezone: Etc/UTC
 
 collections:
-  documentation:
-    title: Documentation
+  introduction:
+    title: Introduction
     position_number: 1
-  api:
-    title: APIs
+  upcomingchanges:
+    title: Upcoming Changes
     position_number: 2
+  general:
+    title: General
+    position_number: 3
+  profiles:
+    title: Profiles
+    position_number: 4
+  api:
+    title: API
+    position_number: 5
+  requests:
+    title: Requests
+    position_number: 6
+  private:
+    title: Private
+    position_number: 7
+  orders:
+    title: Orders
+    position_number: 8
+  marketdata:
+    title: Market Data
+    position_number: 9
+  products:
+    title: Products
+    position_number: 10
+  currencies:
+    title: Currencies
+    position_number: 11
+  websocketfeed:
+    title: Websocket Feed
+    position_number: 12
+  overview:
+    title: Overview
+    position_number: 13
+
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

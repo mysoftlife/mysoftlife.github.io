@@ -1,20 +1,24 @@
 ---
-title: /books/:id
-position_number: 1.5
-type: delete
-description: Deletes a book
+title: Cancel an Order
+position_number: 1.4
+type: put
+description: Update Book
 parameters:
-  - name:
-    content:
+  - name: title
+    content: The title for the book
+  - name: score
+    content: The book's score between 0 and 5
 content_markdown: |-
-  Deletes a book in your collection.
+  Update an existing book in your collection.
 left_code_blocks:
   - code_block: |-
       $.ajax({
         "url": "http://api.myapp.com/books/3",
-        "type": "DELETE",
+        "type": "PUT",
         "data": {
-          "token": "YOUR_APP_KEY"
+          "token": "YOUR_APP_KEY",
+          "score": 5.0,
+          "title": "The Book Stealer"
         },
         "success": function(data) {
           alert(data);
@@ -26,7 +30,9 @@ right_code_blocks:
   - code_block: |2-
       {
         "id": 3,
-        "status": "deleted"
+        "title": "The Book Stealer",
+        "score": 5,
+        "dateAdded": "5/1/2015"
       }
     title: Response
     language: json
@@ -38,4 +44,3 @@ right_code_blocks:
     title: Error
     language: json
 ---
-

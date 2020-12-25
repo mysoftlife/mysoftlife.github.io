@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: Get Products
 position_number: 1
 parameters:
   - name:
