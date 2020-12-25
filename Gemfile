@@ -1,7 +1,8 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-# to publish on github page
-gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll', '3.7.2'
 
-# to publich without github page
-#gem "jekyll"
+group :jekyll_plugins do
+  gem 'jekyll-seo-tag', '2.4.0'
+  gem 'jekyll-sitemap', '1.2.0'
+end
