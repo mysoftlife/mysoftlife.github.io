@@ -1,6 +1,7 @@
 ---
-title: Get a currency
+title: Get an Symbol
 position_number: 2
+type: get
 parameters:
   - name:
     content:

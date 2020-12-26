@@ -5,23 +5,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Welcome to our API.
-
-  This API document is designed for those interested in developing for our platform.
-
-  This API is still under development and will evolve.
-
-  You'll succeed if you do this.
-  {: .success }
-
-  Here's some useful information.
-  {: .info }
-
-  Something may not happen if you try and do this.
-  {: .warning }
-
-  Something bad will happen if you do this.
-  {: .error }
+  <p>A successful response is indicated by HTTP status code 200 and may contain an optional body. If the response has a body it will be documented under each resource below.</p>
 left_code_blocks:
   - code_block:
     title:

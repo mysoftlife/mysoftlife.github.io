@@ -1,5 +1,5 @@
 ---
-title: Get currencies
+title: Register
 position_number: 1
 parameters:
   - name:

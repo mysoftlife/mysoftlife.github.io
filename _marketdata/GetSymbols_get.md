@@ -1,6 +1,7 @@
 ---
-title: Get Products
+title: Get Symbols
 position_number: 1
+type: get
 parameters:
   - name:
     content:

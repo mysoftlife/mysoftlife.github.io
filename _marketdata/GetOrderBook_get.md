@@ -1,6 +1,7 @@
 ---
-title: Get Product Order Book
+title: Get Order Book
 position_number: 3
+type: get
 parameters:
   - name:
     content:
