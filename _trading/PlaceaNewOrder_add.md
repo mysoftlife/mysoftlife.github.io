@@ -16,13 +16,14 @@ parameters:
   - name: amount
     content: Amount of base currency to buy or sell
 content_markdown: |-
-  The returned data object is a single string which represents the order id
-  {: .success}
+  The parameters must use RequestBody JSON
+  {: .warning}
 
   You can place two types of orders: limit and market. Orders can only be placed if your account has sufficient funds. Each profile can have a maximum of 500 open orders on a product. Once reached, the profile will not be able to place any new orders until the total number of open orders is below 500. Once an order is placed, your account funds will be put on hold for the duration of the order. How much and which funds are put on hold depends on the order type and parameters specified. See the Holds details below.
 left_code_blocks:
   - code_block: |-
       POST /v1.0/trades/spot/orders
+      
     title: HTTP REQUEST
     language: java
 right_code_blocks:

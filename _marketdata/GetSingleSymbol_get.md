@@ -1,25 +1,21 @@
 ---
-title: Get Symbols
-position_number: 1.0
+title: Get Single Symbol
+position_number: 1.1
 type: get
 parameters:
   - name: 
     content: 
 content_markdown: |-
-  Symbol ID will not change once assigned to a product but all other fields ares subject to change.
-  {: .warning }
-
-  Get a list of available currency pairs for trading.
-left_code_blocks:
+  Get market data for a specific currency pair.
+left_code_blocks:   
   - code_block: |-
-      GET /v1.0/markets/symbols
+      GET /v1.0/markets/symbols/{symbol}
     title: HTTP REQUEST
     language: java
 right_code_blocks:
   - code_block: |2-
       {
-        "data": [
-         {
+        "data": {
            symbol:"ETH-USDT",                
            display_name:"ETH/USDT",          
            coin_symbol:"ETH",                
@@ -49,8 +45,7 @@ right_code_blocks:
            publish_amount:0.01,              
            visible:1,                       
            exchangeable:1                   
-          }
-         ],
+          },
          "code": 200, 
         "message": "success"
       }
