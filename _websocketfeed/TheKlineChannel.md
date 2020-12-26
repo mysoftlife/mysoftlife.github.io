@@ -17,7 +17,7 @@ right_code_blocks:
           "type": "subscribe",
           "channels": [
               {
-                "name": "klines",
+                "name": "kline",
                 "symbol": "ETH-USDT",
                 "period": "1h" //min,hour,day,week,month
               }

@@ -19,7 +19,7 @@ right_code_blocks:
           "channels": [
               "heartbeat",
               {
-                "name": "klines",
+                "name": "kline",
                 "symbols": "ETH-USDT"
               }
           ]
@@ -33,7 +33,7 @@ right_code_blocks:
         "symbols": [
             "ETH-USDT"
         ],
-        "channels": ["klines"]
+        "channels": ["kline"]
       }
     title: Unsubscribe
     language: json
