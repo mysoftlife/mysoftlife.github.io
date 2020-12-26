@@ -1,26 +1,26 @@
 ---
-title: Cancel all
-position_number: 1.5
+title: Cancel an Order
+position_number: 1.4
 type: delete
 description: API Key Permission：Trade <br/>
              Rate Limit (NEW):50times/2s
 parameters:
-  - name: symbol
-    content: The trading symbol
+  - name: 
+    content: 
 content_markdown: |-
-  The response was the number of cancellations.
-  {: .info }
+  If the order could not be canceled (already filled or previously canceled, etc), then an error response will indicate the reason in the message field.
+  {: .warning }
   
-  With best effort, cancel all open orders from the profile that the API key belongs to.
+  Cancel a previously placed order. Order must belong to the profile that the API key belongs to.
 left_code_blocks:
   - code_block: |-
-     DELETE /v1.0/trades/spot/orders
+     DELETE /v1.0/trades/spot/orders/{orderId}
     title: HTTP REQUEST
     language: java
 right_code_blocks:
   - code_block: |2-
       {
-        "data": {success:3,failure:1},
+        "data": 1,
         "code": "200",
         "message": "success"
       }
@@ -35,4 +35,3 @@ right_code_blocks:
     title: Error
     language: json
 ---
-

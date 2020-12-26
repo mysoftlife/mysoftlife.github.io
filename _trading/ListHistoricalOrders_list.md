@@ -1,6 +1,6 @@
 ---
-title: List Open Orders
-position_number: 1.6
+title: List Historical Orders
+position_number: 1.7
 type: get
 description: API Key Permission：Read <br/>
              Rate Limit (NEW)：50times/2s
@@ -23,10 +23,10 @@ content_markdown: |-
   This request is paginated.
   {: .info }
 
-  List your current open orders from the profile that the API key belongs to. Only open or un-settled orders are returned. As soon as an order is no longer open and settled, it will no longer appear in the default request.
+  List your historical orders from the profile that the API key belongs to. Only completed or canceled orders are returned.
 left_code_blocks:
   - code_block: |-
-           GET /v1.0/trades/spot/orders/open-orders
+           GET /v1.0/trades/spot/orders/order-history
     title: HTTP REQUEST
     language: java
 right_code_blocks:
