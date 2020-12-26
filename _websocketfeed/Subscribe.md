@@ -16,18 +16,11 @@ right_code_blocks:
         // Request
         {
           "type": "subscribe",
-          "symbols": [
-              "ETH-USD",
-              "ETH-EUR"
-          ],
           "channels": [
               "heartbeat",
               {
                 "name": "klines",
-                "symbols": [
-                    "ETH-BTC",
-                    "ETH-USD"
-                ]
+                "symbols": "ETH-USDT"
               }
           ]
         }
@@ -38,8 +31,7 @@ right_code_blocks:
       {
         "type": "unsubscribe",
         "symbols": [
-            "ETH-USD",
-            "ETH-EUR"
+            "ETH-USDT"
         ],
         "channels": ["klines"]
       }

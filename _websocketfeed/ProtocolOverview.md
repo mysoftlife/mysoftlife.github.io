@@ -13,7 +13,7 @@ content_markdown: |-
   
 left_code_blocks:
   - code_block:
-      wss://ws-feed.powx.com
+      wss://ws-feed.powx.com/ws
     title: WSS
     language: javascript
 right_code_blocks:
