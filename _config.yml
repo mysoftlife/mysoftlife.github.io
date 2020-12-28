@@ -23,21 +23,18 @@ collections:
   requests:
     title: Requests
     position_number: 3
-  account:
-    title: Account
-    position_number: 4
   wallet:
     title: Wallet
-    position_number: 5
+    position_number: 4
   trading:
     title: Trading
-    position_number: 8
+    position_number: 5
   marketdata:
     title: Market Data
-    position_number: 10
+    position_number: 6
   websocketfeed:
     title: Websocket Feed
-    position_number: 12
+    position_number: 7
 
 
 plugins:
