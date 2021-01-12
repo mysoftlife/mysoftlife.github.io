@@ -1,5 +1,5 @@
 ---
-title: Wallet withdraw info details
+title: Wallets withdraw info details
 position_number: 2
 type: get
 description: API Key Permission：Wallet <br/>

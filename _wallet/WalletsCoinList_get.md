@@ -1,5 +1,5 @@
 ---
-title: Wallet coin list
+title: Wallets coin list
 position_number: 5
 type: get
 description: API Key Permission：Wallet <br/>

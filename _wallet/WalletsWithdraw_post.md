@@ -1,5 +1,5 @@
 ---
-title: Wallet withdraw
+title: Wallets withdraw
 position_number: 1
 type: post
 description: API Key Permission：Wallet <br/>
@@ -14,11 +14,8 @@ content_markdown: |-
   RequestBody:
   ```json
     {
-      "email_verification_code": "123456", 
-      "phone_verification_code": "123456", 
-      "google_authenticator_code": "123456", 
-      "withdraw_amount": "11", 
-      "address": "address", 
+      "withdraw_amount": "10",
+      "address": "0x8a9fcb56aabe5d828c23477b7b60e6e5b481a108",
       "network_id": 1
     }
   ```
