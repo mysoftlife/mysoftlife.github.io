@@ -1,6 +1,6 @@
 ---
-title: Wallets History
-position_number: 1
+title: Wallets history
+position_number: 4
 type: get
 description: API Key Permission：Wallet <br/>
              Rate Limit (NEW):50times/2s
