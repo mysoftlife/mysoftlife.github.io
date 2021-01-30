@@ -1,6 +1,6 @@
 ---
-title: Wallets get coin balance
-position_number: 5
+title: Wallets support coin list
+position_number: 6
 type: get
 description: API Key Permission：Wallet <br/>
              Rate Limit (NEW):50times/2s
@@ -8,10 +8,10 @@ parameters:
   - name: 
     content: 
 content_markdown: |-
-  Get user coin balance.
+  Get supported coins.
 left_code_blocks:
   - code_block: |-
-       GET  /v1.0/wallets/coins
+       GET  /v1.0/coins
     title: HTTP REQUEST
     language: java
 right_code_blocks:
@@ -20,8 +20,7 @@ right_code_blocks:
          "data": [
            {
              "symbol": "ETH", 
-             "available_amount": "17485388032.4", 
-             "locked_amount": "0"
+             "icon_url": "url"
            }
          ], 
          "code": "200", 
