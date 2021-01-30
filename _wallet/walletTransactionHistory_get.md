@@ -1,20 +1,18 @@
 ---
-title: Wallets history
+title: Wallets transaction history
 position_number: 4
 type: get
 description: API Key Permission：Wallet <br/>
              Rate Limit (NEW):50times/2s
 parameters:
-  - name: user_id
-    content: The userid for account 
   - name: symbol
     content: coin symbol example:USDT, ETH , All
   - name: transaction_type
     content: The transaction_type Example:all, deposit, withdrawal, transfer
-  - name: start_data
-    content: the query start date  example:2020-11-12, all
-  - name: end_data
-    content: the query end date  example:2020-11-20, all
+  - name: start_time
+    content: The start timestamp
+  - name: end_time
+    content: The end timestamp
   - name: page_no
     content: the query page number(start from 0)
   - name: sage_size
@@ -34,18 +32,8 @@ right_code_blocks:
          "data": {
            "transaction_history_list": [
              {
-               "type": "transfer", 
-               "id": 180, 
-               "time": "2020-12-09 13:08:24", 
-               "symbol": "ETH", 
-               "amount": "123", 
-               "status": "Completed", 
-               "network_name": "ETH", 
-               "description": "Reissued"
-             }, 
-             {
+               "transaction_id": "M03130427093419294720", 
                "type": "withdrawal", 
-               "id": 179, 
                "time": "2020-12-07 20:51:04", 
                "symbol": "USDT", 
                "amount": "100000000", 
@@ -53,11 +41,11 @@ right_code_blocks:
                "txid": "0xc0851f97dcc49e3cc7153ec7cdaeecf209392936f971a7f42cd4c8db70c94536", 
                "status": "Completed", 
                "network_confirmation": "12/12", 
-               "network_name": "ERC20", 
+               "network": "ERC20", 
                "transaction_fee": "0"
              }
            ], 
-           "total_page": 24, 
+           "total_page": 3, 
            "total_number": 48
          }, 
          "code": "200", 

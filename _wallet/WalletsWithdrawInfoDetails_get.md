@@ -17,28 +17,30 @@ left_code_blocks:
 right_code_blocks:
   - code_block: |2-
        {
-         "code": "200", 
-         "data": {
-           "available_amount": "0.00000000", 
-           "locked_amount": "0.00000000", 
-           "name": "Tether", 
-           "icon_url": "url", 
-           "network_list": [
-             {
-               "withdraw_scale": 8, 
-               "available_amount": "0.00000000", 
-               "min_withdraw_amount": "0.00000000", 
-               "network_id": 1, 
-               "network_name": "Ethereum Mainnet", 
-               "transaction_fee": "0.00000000"
-             }
-           ], 
-           "symbol": "ETH", 
-           "total_amount": "0.00000000"
-         }, 
-         "message": "success"
+           "data": {
+               "symbol": "USDT",
+               "network_list": [
+                   {
+                       "network_name": "ERC20",
+                       "min_withdraw_amount": "10",
+                       "transaction_fee": "5",
+                       "network_type": "address",     
+                       "withdraw_scale": 6,               
+                       "can_withdrawal": true         
+                   },
+                   {
+                       "network_name": "OMNI",
+                       "min_withdraw_amount": "200",
+                       "transaction_fee": "5",
+                       "network_type": "address",
+                       "withdraw_scale": 6,
+                       "can_withdrawal": true
+                   }
+               ]
+           },
+           "code": "200",
+           "message": "success"
        }
-
     title: Response
     language: json
   - code_block: |2-

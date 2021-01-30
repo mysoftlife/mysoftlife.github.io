@@ -1,5 +1,5 @@
 ---
-title: Wallets withdraw
+title: Wallets withdrawal api
 position_number: 1
 type: post
 description: API Key Permission：Wallet <br/>
@@ -14,9 +14,11 @@ content_markdown: |-
   RequestBody:
   ```json
     {
-      "withdraw_amount": "10",
+      "withdrawal_amount": "10", 
       "address": "0x8a9fcb56aabe5d828c23477b7b60e6e5b481a108",
-      "network_id": 1
+      "memo":"E3JS",
+      "symbol": "USDT",
+      "network":"OMNI"
     }
   ```
 
@@ -30,18 +32,7 @@ left_code_blocks:
 right_code_blocks:
   - code_block: |2-
        {
-         "data": {
-           "id": 74, 
-           "time": "2020-11-12 09:00:14", 
-           "symbol": "USDT", 
-           "amount": "10.00000000", 
-           "address": "0x8a9fcb56aabe5d828c23477b7b60e6e5b481a108", 
-           "txid": "", 
-           "status": "Auditing", 
-           "network_confirmation": "0/12", 
-           "type": "withdraw", 
-           "transaction_fee": "11"
-         }, 
+         "data": null,      
          "code": "200", 
          "message": "success"
        }

@@ -8,22 +8,23 @@ parameters:
   - name: 
     content: 
 content_markdown: |-
-  Get supported coins.
+  Get user coin balance.
 left_code_blocks:
   - code_block: |-
-       GET  /v1.0/coins
+       GET  /v1.0/wallets/coins
     title: HTTP REQUEST
     language: java
 right_code_blocks:
   - code_block: |2-
        {
-         "code": "200", 
          "data": [
            {
-             "name": "Ethereum", 
-             "symbol": "ETH"
+             "symbol": "ETH", 
+             "available_amount": "17485388032.4", 
+             "locked_amount": "0"
            }
          ], 
+         "code": "200", 
          "message": "success"
        }
     title: Response

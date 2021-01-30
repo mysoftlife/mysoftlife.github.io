@@ -1,5 +1,5 @@
 ---
-title: Wallets deposit detail
+title: Wallets deposit details
 position_number: 3
 type: get
 description: API Key Permission：Wallet <br/>
@@ -17,26 +17,28 @@ left_code_blocks:
 right_code_blocks:
   - code_block: |2-
        {
-         "code": "200", 
          "data": {
-           "name": "Tether", 
            "symbol": "USDT", 
-           "icon_url": "url", 
            "network_list": [
              {
                "address": "address", 
+               "memo": "E3JS", 
                "min_deposit_amount": "1", 
-               "network_name": "ERC20", 
-               "confirmation": 12
+               "network": "ERC20", 
+               "confirmation": 12, 
+               "can_deposit": true
              }, 
              {
                "address": "address", 
+               "memo": "E3JS", 
                "min_deposit_amount": "0.1", 
-               "network_name": "OMNI", 
-               "confirmation": 12
+               "network": "OMNI", 
+               "confirmation": 12, 
+               "can_deposit": false
              }
            ]
          }, 
+         "code": "200", 
          "message": "success"
        }
     title: Response
