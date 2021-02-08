@@ -1,3 +1,3 @@
-# POWX
+# MOBI
 
-API documentation for POWX. 
+API documentation for MOBI. 

@@ -5,9 +5,9 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Welcome to POWX API！
+  Welcome to MOBI API！
   
-  This is the official POWX API document, and will be continue updating, please follow us to get latest news.
+  This is the official MOBI API document, and will be continue updating, please follow us to get latest news.
   
   The example of request and response is showing in the right hand side.
 left_code_blocks:
