@@ -13,13 +13,9 @@ parameters:
     content: The start timestamp
   - name: end_time
     content: The end timestamp
-  - name: page_no
-    content: the query page number(start from 0)
-  - name: page_size
-    content: the query page size 
+  - name: limit
+    content: Default 500; max 1000.
 content_markdown: |-
-  This request is paginated.
-  {: .info }
   The transaction history of the wallet can be searched according to different currencies and different types.
 left_code_blocks:
   - code_block: |-

@@ -15,14 +15,9 @@ parameters:
     content: the end timestamp
   - name: direction
     content: sell|buy|all,Filter on the direction of the trade
-  - name: page_no
-    content: the page number(start from 0)
-  - name: page_size
-    content: the page size
+  - name: limit
+    content: Default 500; max 1000.
 content_markdown: |-
-  This request is paginated.
-  {: .info }
-
   List your current open orders from the profile that the API key belongs to. Only open or un-settled orders are returned. As soon as an order is no longer open and settled, it will no longer appear in the default request.
 left_code_blocks:
   - code_block: |-
