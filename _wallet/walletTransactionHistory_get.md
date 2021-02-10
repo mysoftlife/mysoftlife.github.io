@@ -15,7 +15,7 @@ parameters:
     content: The end timestamp
   - name: page_no
     content: the query page number(start from 0)
-  - name: sage_size
+  - name: page_size
     content: the query page size 
 content_markdown: |-
   This request is paginated.
