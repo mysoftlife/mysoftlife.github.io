@@ -3,7 +3,7 @@ title: Wallets support coin list
 position_number: 6
 type: get
 description: API Key Permission：Wallet <br/>
-             Rate Limit (NEW):50times/2s
+             
 parameters:
   - name: 
     content: 

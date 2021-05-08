@@ -3,7 +3,7 @@ title: Cancel all
 position_number: 1.5
 type: delete
 description: API Key Permission：Trade <br/>
-             Rate Limit (NEW):50times/2s
+             
 parameters:
   - name: symbol
     content: The trading symbol

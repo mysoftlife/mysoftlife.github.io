@@ -3,7 +3,7 @@ title: Wallets get coin balance
 position_number: 5
 type: get
 description: API Key Permission：Wallet <br/>
-             Rate Limit (NEW):50times/2s
+             
 parameters:
   - name: 
     content: 

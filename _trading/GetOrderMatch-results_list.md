@@ -3,7 +3,7 @@ title: Get Order Match-results
 position_number: 1.9
 type: get
 description: API Key Permission：Read <br/>
-             Rate Limit (NEW):20times/2s
+             
 parameters:
   - name: 
     content: 

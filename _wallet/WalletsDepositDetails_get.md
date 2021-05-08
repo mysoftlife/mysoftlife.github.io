@@ -3,7 +3,7 @@ title: Wallets deposit details
 position_number: 3
 type: get
 description: API Key Permission：Wallet <br/>
-             Rate Limit (NEW):50times/2s
+             
 parameters:
   - name: symbol
     content: coin symbol example:USDT, ETH , All

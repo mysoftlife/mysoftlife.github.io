@@ -3,7 +3,7 @@ title: Get an Order
 position_number: 1.3
 type: get
 description: API Key Permission：Read <br/>
-             Rate Limit (NEW):50times/2s
+            
 parameters:
   - name: 
     content:

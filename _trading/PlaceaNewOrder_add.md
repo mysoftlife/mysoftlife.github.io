@@ -3,7 +3,7 @@ title: Place a New Order
 position_number: 1.1
 type: post
 description: API Key Permission：Trade <br/>
-             Rate Limit (NEW):100times/2s
+             
 parameters:
   - name: type
     content: limit_price or market_price (default is limit_price )

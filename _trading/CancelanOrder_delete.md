@@ -3,7 +3,7 @@ title: Cancel an Order
 position_number: 1.4
 type: delete
 description: API Key Permission：Trade <br/>
-             Rate Limit (NEW):50times/2s
+             
 parameters:
   - name: 
     content: 

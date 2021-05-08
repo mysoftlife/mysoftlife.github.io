@@ -3,7 +3,7 @@ title: List Open Orders
 position_number: 1.6
 type: get
 description: API Key Permission：Read <br/>
-             Rate Limit (NEW)：50times/2s
+            
 parameters:
   - name: symbol
     content: The trading symbol to trade
